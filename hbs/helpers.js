@@ -8,6 +8,6 @@ hbs.registerHelper('capitalizar', (texto) => {
     let palabras = texto.split(' ');
     palabras.forEach( (palabras, idx) => {
         palabras[idx] = palabras.charAt(0).toUpperCase() + palabras.slice(1).toLowerCase
-        return palabras.join(' ') ;
     });
+    return palabras.join(' ') ;
 });
